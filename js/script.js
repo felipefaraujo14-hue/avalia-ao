@@ -19,7 +19,7 @@ function calcularPremiacao(valorReceber){
         percentual = 0.15;
     }
     else{
-        percentual = 0.15;
+        percentual = 0.20;
     }
 
     return percentual;
