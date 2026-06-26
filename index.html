@@ -1,32 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prova</title>
+    <title>Coleta de Resíduos</title>
 </head>
 <body>
-    <div id="div-class">
-       <h2>Recolhimento de lixo</h2>
 
-       <form id="formVeiculo">
+<h2>Cadastro de Empresas</h2>
 
-        <label for="Empresa">Empresa</label>
-        <input type="text" id="Empresa" required>
+<form id="formEmpresa">
 
-        <label for="Valor">Valor</label>
-        <input type="number" id="Valor" required>
+    <label>Empresa</label><br>
+    <input type="text"id="empresa"required>
 
-        <br><br>
+    <br>
 
-        <button type="submit">Enviar</button>
+    <label>Quantidade Recolhida (toneladas)</label><br>
 
-        <h2>Formulario</h2>
+    <input type="number"id="quantidade"required>
 
-        <div id="listaValores"></div>
+    <br><br>
 
+    <button type="submit">Cadastrar</button>
 
+</form>
 
-    </div>
+<table>
+
+    <thead>
+
+        <tr>
+            <th>Empresa</th>
+            <th>Quantidade</th>
+            <th>Valor a Receber</th>
+            <th>Premiação</th>
+            <th>Valor Final</th>
+        </tr>
+
+    </thead>
+
+    <tbody id="tabela">
+
+    </tbody>
+
+</table>
+
+<script src="js/script.js"></script>
+
 </body>
 </html>
