@@ -1,12 +1,67 @@
-* {
+*{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background: #f4f7f9;
-    color: #000000;
-    padding: 30px;
+    background-color: rgb(252, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 20px;
+}
+
+h1, h2 {
+    margin: 15px 0 10px 0;
+    font-size: 1.1rem;
+   text-align: center;
+   
+}
+
+#formEmpresa {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+input[type="text"],
+input[type="number"] {
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+button[type="submit"] {
+    background-color: #27ae60;
+    color: white;
+}
+
+hr {
+    margin: 25px 0;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+
+th, tr {
+    padding: 10px;
+    background: #999494;
+    border-radius: 4px;
+    min-height: 50px;
 }
